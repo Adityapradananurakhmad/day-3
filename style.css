@@ -1,0 +1,62 @@
+section{
+display: flex;
+}
+
+body{
+    background-color: rgb(178, 146, 114);
+}
+ul{
+    display : flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center; 
+    padding: 10px;     
+}
+li, a{
+    font-size: 18px;
+    font-weight: 400px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav li{
+    list-style-type: none;
+    color: white;
+}
+
+
+nav {
+    background-color: rgb(43, 37, 75);
+    padding: 5px;
+    position: sticky;
+    top: 0px;
+    opacity: 80%;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kiri{
+
+}
+.kanan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-top: 100px;
+    margin-right: 20px;
+}
+.image {
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
